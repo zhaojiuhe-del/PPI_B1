@@ -1,0 +1,6 @@
+{
+  "name": "MediScale AI - 现代医院绩效与定岗定编一体化沙盘系统",
+  "description": "基于RBRVS、CCHI标尺、多维调音台、沙盘推演、定岗定编FTE测算、三级成本核算与AI智能咨询报告的新一代公立医院数字化绩效管理平台",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

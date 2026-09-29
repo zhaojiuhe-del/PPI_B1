@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/* Force native select dropdown options to dark background with high contrast readable text */
+select {
+  color-scheme: dark;
+}
+
+select option {
+  background-color: #090d16 !important; /* ultra-dark slate-950 */
+  color: #f8fafc !important; /* slate-50 high contrast text */
+  padding: 8px 12px !important;
+}
+
+select option:checked {
+  background-color: #0891b2 !important; /* cyan-600 */
+  color: #ffffff !important;
+}
+
+/* ========================================================
+   Light Mode Clean Daytime Theme Overrides (白色清晰底色模式)
+   ======================================================== */
+.theme-light {
+  color-scheme: light !important;
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.theme-light select {
+  color-scheme: light !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+.theme-light select option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.theme-light select option:checked {
+  background-color: #0284c7 !important;
+  color: #ffffff !important;
+}
+
+.theme-light header {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08) !important;
+}
+
+.theme-light .bg-slate-950 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .bg-slate-950\/70,
+.theme-light .bg-slate-950\/80,
+.theme-light .bg-slate-950\/90,
+.theme-light .bg-slate-950\/40,
+.theme-light .bg-slate-950\/60 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .bg-slate-900,
+.theme-light .bg-slate-900\/90,
+.theme-light .bg-slate-900\/80,
+.theme-light .bg-slate-900\/50,
+.theme-light .bg-slate-900\/40 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.theme-light .bg-slate-800,
+.theme-light .bg-slate-800\/80,
+.theme-light .bg-slate-800\/60,
+.theme-light .bg-slate-800\/40,
+.theme-light .bg-slate-800\/90,
+.theme-light .bg-slate-800\/50 {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .border-slate-800,
+.theme-light .border-slate-800\/80,
+.theme-light .border-slate-800\/70,
+.theme-light .border-slate-800\/40,
+.theme-light .border-slate-700,
+.theme-light .border-slate-700\/80 {
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .text-white,
+.theme-light .text-slate-100,
+.theme-light .text-slate-200 {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-300,
+.theme-light .text-slate-400 {
+  color: #475569 !important;
+}
+
+.theme-light .text-slate-500 {
+  color: #64748b !important;
+}
+
+.theme-light input[type="text"],
+.theme-light input[type="number"],
+.theme-light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+.theme-light thead.bg-slate-950,
+.theme-light thead {
+  background-color: #f1f5f9 !important;
+  color: #334155 !important;
+  border-color: #cbd5e1 !important;
+}
+
+.theme-light tbody tr:hover {
+  background-color: #f8fafc !important;
+}
+
+.theme-light .divide-slate-800\/70 > :not([hidden]) ~ :not([hidden]),
+.theme-light .divide-slate-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f1f5f9 !important;
+}
